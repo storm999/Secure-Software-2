@@ -1,0 +1,90 @@
+Humidity Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:74
+Temperature Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:34
+Pressure Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:80
+Humidity Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:66
+Temperature Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:31
+Pressure Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:95
+Humidity Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:70
+Temperature Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:30
+Pressure Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:80
+Humidity Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:65
+Temperature Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:30
+Pressure Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:90
+Humidity Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:65
+Temperature Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:30
+Pressure Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:95
+Humidity Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:75
+Temperature Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:30
+Pressure Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:80
+Humidity Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:74
+Temperature Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:34
+Pressure Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:85
+Humidity Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:67
+Temperature Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:32
+Pressure Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:90
+Humidity Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:74
+Temperature Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:34
+Pressure Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:90
+Humidity Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:77
+Temperature Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:32
+Pressure Sensor1 :
+Internal temperature: 25 celcius degree
+The value read from sensor:75

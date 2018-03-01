@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DeviceInterface">
+    <Position X="10.75" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAIAAAAAAAAAgACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeviceInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Subject">
+    <Position X="8" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQAEQAAAAAAAAAIAIEAAAAAAAEAAAAgAAAgEAAAA=</HashCode>
+      <FileName>Subject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Permission">
+    <Position X="8.25" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAQAAAAAAAAAAAAgAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Permission.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Resource">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Resource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResourceFactory">
+    <Position X="8" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAABAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>ResourceFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AuthenticationInfo">
+    <Position X="3.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAAAAAAAAAIAAAAAAAAIAAAAAc=</HashCode>
+      <FileName>AuthenticationInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Authenticator">
+    <Position X="5.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAIAIAAgAAAAAAAAAAAAAYAAkAAAAAAAA=</HashCode>
+      <FileName>Authenticator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HumiditySensor">
+    <Position X="11.5" Y="5.5" Width="2" />
+    <InheritanceLine Type="Sensor" ManuallyRouted="true">
+      <Path>
+        <Point X="16.5" Y="4.42" />
+        <Point X="16.5" Y="5.021" />
+        <Point X="12.5" Y="5.021" />
+        <Point X="12.5" Y="5.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAoQAAAAAAIAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HumiditySensor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PressureSensor">
+    <Position X="15.5" Y="5.5" Width="2" />
+    <InheritanceLine Type="Sensor" ManuallyRouted="true">
+      <Path>
+        <Point X="16.5" Y="4.42" />
+        <Point X="16.5" Y="5.01" />
+        <Point X="16.5" Y="5.01" />
+        <Point X="16.5" Y="5.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgQAAAAAAAAAgAAAACAAAAAgAACAAAAAAAAAAA=</HashCode>
+      <FileName>PressureSensor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sensor">
+    <Position X="15.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgQIwABABAAAAAAAAAAAAAAgQAAAwAQAAAAAgA=</HashCode>
+      <FileName>Sensor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TemperatureSensor">
+    <Position X="13.5" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAgQAAAAAAAAAAAAAAAAAAAAgAAAAASAAAAAAAA=</HashCode>
+      <FileName>TemperatureSensor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Device">
+    <Position X="13" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAgAAAAABCAAAAAAAAAAASAAQAAAAAAA=</HashCode>
+      <FileName>Device.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProofOfId">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAgAAAAAAAACAAAAAAAAAACAAAIAAA=</HashCode>
+      <FileName>ProofOfId.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="userTypes">
+    <Position X="3.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAABAAAAAAA=</HashCode>
+      <FileName>Permission.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="statesOfSensors">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Sensor.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

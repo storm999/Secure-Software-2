@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\belgelerim\tahir\dersnotları\wales 2nd year\ssnew\readyforsubmission\project1\project1\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'subject'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\belgelerim\tahir\dersnotları\wales 2nd year\ssnew\readyforsubmission\project1\project1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\belgelerim\tahir\dersnotları\wales 2nd year\ssnew\readyforsubmission\project1\project1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>10</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\belgelerim\tahir\dersnotları\wales 2nd year\ssnew\readyforsubmission\project1\project1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>11</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\belgelerim\tahir\dersnotları\wales 2nd year\ssnew\readyforsubmission\project1\project1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\belgelerim\tahir\dersnotları\wales 2nd year\ssnew\readyforsubmission\project1\project1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\belgelerim\tahir\dersnotları\wales 2nd year\ssnew\readyforsubmission\project1\project1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\belgelerim\tahir\dersnotları\wales 2nd year\ssnew\readyforsubmission\project1\project1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\belgelerim\tahir\dersnotları\wales 2nd year\ssnew\readyforsubmission\project1\project1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\belgelerim\tahir\dersnotları\wales 2nd year\ssnew\readyforsubmission\project1\project1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\belgelerim\tahir\dersnotları\wales 2nd year\ssnew\readyforsubmission\project1\project1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\belgelerim\tahir\dersnotları\wales 2nd year\ssnew\readyforsubmission\project1\project1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\belgelerim\tahir\dersnotları\wales 2nd year\ssnew\readyforsubmission\project1\project1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\belgelerim\tahir\dersnotları\wales 2nd year\ssnew\readyforsubmission\project1\project1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\belgelerim\tahir\dersnotları\wales 2nd year\ssnew\readyforsubmission\project1\project1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'subject' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\belgelerim\tahir\dersnotları\wales 2nd year\ssnew\readyforsubmission\project1\project1\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'subject' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Design Patterns">
+      <UniqueIdentifier>{8f0efe3c-5adf-4e2f-b17e-c294b519e92b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Design Patterns">
+      <UniqueIdentifier>{8a78bd9c-b97d-4e9c-9bd3-80a611faeb6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Design Patterns\Role Based Access">
+      <UniqueIdentifier>{7e953f76-26bc-4b72-bc70-e8d1b8290eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Design Patterns\Role Based Access">
+      <UniqueIdentifier>{570dcb24-1533-4134-99b8-7875eddf9301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Design Patterns\Authenticator">
+      <UniqueIdentifier>{48355d15-be66-41d8-9fec-aa4416e67866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Design Patterns\Authenticator">
+      <UniqueIdentifier>{d7915e62-4dbf-4cae-a88f-61131ff4971a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Device">
+      <UniqueIdentifier>{41d5cf2a-fa71-4bec-9353-7956721f9acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Device">
+      <UniqueIdentifier>{9952e1fc-ad0d-4abc-bb6a-362c1e0a1bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Device\Sensors">
+      <UniqueIdentifier>{437b5b1d-ccf9-4c3b-9eae-f8af850e478a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Device\Sensors">
+      <UniqueIdentifier>{33fd6840-afbd-42cc-9bae-f2e464dcce64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Permission.cpp">
+      <Filter>Source Files\Design Patterns\Role Based Access</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>Source Files\Design Patterns\Role Based Access</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceFactory.cpp">
+      <Filter>Source Files\Design Patterns\Role Based Access</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Source Files\Design Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthenticationInfo.cpp">
+      <Filter>Source Files\Design Patterns\Authenticator</Filter>
+    </ClCompile>
+    <ClCompile Include="Authenticator.cpp">
+      <Filter>Source Files\Design Patterns\Authenticator</Filter>
+    </ClCompile>
+    <ClCompile Include="ProofOfId.cpp">
+      <Filter>Source Files\Design Patterns\Authenticator</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>Source Files\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceInterface.cpp">
+      <Filter>Source Files\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Sensor.cpp">
+      <Filter>Source Files\Device\Sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="PressureSensor.cpp">
+      <Filter>Source Files\Device\Sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="TemperatureSensor.cpp">
+      <Filter>Source Files\Device\Sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="HumiditySensor.cpp">
+      <Filter>Source Files\Device\Sensors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Permission.h">
+      <Filter>Header Files\Design Patterns\Role Based Access</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\Design Patterns\Role Based Access</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceFactory.h">
+      <Filter>Header Files\Design Patterns\Role Based Access</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Header Files\Design Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthenticationInfo.h">
+      <Filter>Header Files\Design Patterns\Authenticator</Filter>
+    </ClInclude>
+    <ClInclude Include="Authenticator.h">
+      <Filter>Header Files\Design Patterns\Authenticator</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofOfId.h">
+      <Filter>Header Files\Design Patterns\Authenticator</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>Header Files\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceInterface.h">
+      <Filter>Header Files\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensor.h">
+      <Filter>Header Files\Device\Sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="TemperatureSensor.h">
+      <Filter>Header Files\Device\Sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="PressureSensor.h">
+      <Filter>Header Files\Device\Sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="HumiditySensor.h">
+      <Filter>Header Files\Device\Sensors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
